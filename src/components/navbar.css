@@ -1,0 +1,30 @@
+.navbar {
+  height: 60px;
+  background-color: #65a7a0;
+  padding: 5px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  position: top;
+}
+
+.name {
+  font-family: "Nothing You Could Do", cursive;
+  font-size: 35px;
+  color: white;
+  margin-top: 10px;
+}
+
+.contact {
+  height: 45px;
+  width: 150px;
+  padding: 0;
+  padding-top: 2px;
+  background-color: white ;
+  border: none;
+  border-radius: 5px;
+  font-family: "Quattrocento", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
