@@ -1,6 +1,6 @@
 .parcours {
   height: 800px;
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
 }
@@ -30,7 +30,7 @@
   display: flex;
   position: relative;
   top: 21%;
-  left: -150px;
+  left: -100px;
   height: 130px;
   width: 50%;
   align-items: center;
@@ -54,9 +54,10 @@
 .projects {
   position: relative;
   top: 10%;
-  right: 0px;
+  right: -100px;
   width: calc((50vw) - 110px);
   justify-content: left;
+  width : 50%;
 }
 
 .project-cards {
@@ -65,7 +66,7 @@
 }
 
 .project {
-  max-height: 200px;
+  height: 200px;
   width: 200px;
   border-radius: 10px;
   margin:20px;
@@ -93,4 +94,90 @@
   border-radius: 8px;
   box-shadow: 1px 1px rgba(128, 128, 128, 0.074);
   background-color: rgba(218, 194, 174, 0.522);
+}
+
+
+@media screen and (max-width: 1280px) {
+  .project-title {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .project {
+    height: 220px;
+  }
+
+  .bootcamp {
+    left: -50px;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .bootcamp {
+    display: block;
+  }
+
+  .project-cards{
+    display: block;;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .parcours {
+    width:100%;
+  }
+
+  .projects {
+    right: 0;
+  }
+
+  .bootcamp {
+    left: -100px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .parcours {
+    display: block;
+    justify-content: left;
+    margin-left: 50px;
+  }
+
+  #wagon {
+    top:8%;
+  }
+
+  .bootcamp {
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    top: 8%;
+    left: 80px;
+    width: 70%;
+
+  }
+
+  .projects {
+    left: 80px;
+  }
+  .project {
+    margin-inline:0;
+  }
+
+  .wagon-projects {
+    margin:0;
+    margin-top: 20px;
+    margin-bottom: -10px;
+    font-size: 22px;
+  }
+}
+
+
+@media screen and (max-width: 620px){
+ .wagon-projects {
+  height: auto;
+  width: 220px;
+ }
 }
