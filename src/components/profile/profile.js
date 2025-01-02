@@ -12,7 +12,7 @@ const Profile = () => {
           <div className="stacks">
             <p className="item">React</p>
             <p className="item">Ruby on Rails</p>
-            <p className="item">JavaSript</p>
+            <p className="item">JavaScript</p>
             <p className="item">CSS</p>
             <p className="item">HTML</p>
           </div>

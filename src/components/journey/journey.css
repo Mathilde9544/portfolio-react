@@ -1,13 +1,13 @@
 .parcours {
-  height: 800px;
+  height: 400px;
   width: 80%;
   display: flex;
   justify-content: center;
 }
 
 .line {
-  width: 10px;
-  height: 100%;
+  width: 4px;
+  height: 400px;
   background-color:#65a7a0;
   margin-top: 40px;
   border-radius: 10px;
@@ -15,27 +15,39 @@
 }
 
 .step {
+  display: none;
   position: relative;
-  left: -13px;
-  font-size: 35px;
+  left: -10px;
+  font-size: 25px;
   color:#65a7a0;
 }
 
-#wagon {
+.arrow {
+  display: none;
   position: relative;
-  top:26%;
+  top: -10px;
+  left: -12px;
+  font-size: 28px;
+  color:#65a7a0;
 }
 
+
 .bootcamp {
-  display: flex;
   position: relative;
-  top: 21%;
+  top: 20%;
   left: -100px;
-  height: 130px;
-  width: 50%;
+  width: 30%;
+  align-items: center;
+  text-align: right;
+  margin-left:20%;
+}
+
+.bootcamp-title {
+  display: flex;
   align-items: center;
   text-align: right;
   justify-content: right;
+
 }
 
 .wagon {
@@ -44,16 +56,24 @@
   margin-right: 25px;
 }
 
+.wagon-text {
+  display: flex;
+  text-align: left;
+  justify-content: right;
+  font-size: 18px;
+  color: rgba(79, 69, 69, 0.975);
+
+}
+
 .wagon-projects {
   height: 30px;
   margin:0;
   margin-left: 20px;
-  font-size: px;
 }
 
 .projects {
   position: relative;
-  top: 10%;
+  top: 25%;
   right: -100px;
   width: calc((50vw) - 110px);
   justify-content: left;
@@ -73,7 +93,7 @@
   padding: 20px;
   padding-bottom: 25px;
   text-align: center;
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.232);
   box-shadow: 2px 2px rgba(197, 191, 191, 0.422);
   background-color: white;
 }
@@ -87,7 +107,7 @@
 }
 
 .project-title {
-  border: 1px solid grey;
+  border: 1px solid rgba(128, 128, 128, 0.273);
   margin:0;
   margin-top: 15px;
   padding: 8px;
@@ -172,6 +192,14 @@
     margin-bottom: -10px;
     font-size: 22px;
   }
+
+  .project-cards{
+    display: flex;
+   }
+
+  .project {
+    margin-right: 20px;
+  }
 }
 
 
@@ -181,3 +209,36 @@
   width: 220px;
  }
 }
+
+@media screen and (max-width: 520px){
+  .bootcamp {
+    left:50px;
+   }
+   .projects {
+    left: 50px;
+   }
+ }
+
+ @media screen and (max-width: 450px){
+  .project {
+    margin-right: 10px;
+  }
+ }
+
+ @media screen and (max-width: 430px){
+  .project-cards {
+    display: block;
+  }
+
+  .project {
+   width: 250px;
+   height: 250px;
+   margin-right: 0;
+   padding-bottom: 0;
+  }
+
+  .wagon-projects {
+    margin-bottom: 0;
+  }
+
+ }
