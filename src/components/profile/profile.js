@@ -8,7 +8,7 @@ const Profile = () => {
     <div className="profile">
       <div className="introText">
         <div className="hello">
-          <p className="text">Hello, I'm a <br/> Web Developer</p>
+          <h1 className="text">Hello, I'm a <br/> Web Developer</h1>
           <div className="stacks">
             <p className="item">React</p>
             <p className="item">Ruby on Rails</p>

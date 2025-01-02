@@ -1,4 +1,6 @@
 .profile {
+  padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   width: 100%;
   background-color: rgba(218, 194, 174, 0.522);

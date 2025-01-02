@@ -11,4 +11,86 @@
   background-color:#65a7a0;
   margin-top: 40px;
   border-radius: 10px;
+  position: absolute;
+}
+
+.step {
+  position: relative;
+  left: -13px;
+  font-size: 35px;
+  color:#65a7a0;
+}
+
+#wagon {
+  position: relative;
+  top:26%;
+}
+
+.bootcamp {
+  display: flex;
+  position: relative;
+  top: 21%;
+  left: -150px;
+  height: 130px;
+  width: 50%;
+  align-items: center;
+  text-align: right;
+  justify-content: right;
+}
+
+.wagon {
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.wagon-projects {
+  height: 30px;
+  margin:0;
+  margin-left: 20px;
+  font-size: px;
+}
+
+.projects {
+  position: relative;
+  top: 10%;
+  right: 0px;
+  width: calc((50vw) - 110px);
+  justify-content: left;
+}
+
+.project-cards {
+  display: flex;
+  font-style: italic;
+}
+
+.project {
+  max-height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  margin:20px;
+  padding: 20px;
+  padding-bottom: 25px;
+  text-align: center;
+  border: 1px solid grey;
+  box-shadow: 2px 2px rgba(197, 191, 191, 0.422);
+  background-color: white;
+}
+
+.project-image {
+  width: 150px;
+  height: 150px;
+}
+#mouse {
+  border-radius: 50%;
+}
+
+.project-title {
+  border: 1px solid grey;
+  margin:0;
+  margin-top: 15px;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 1px 1px rgba(128, 128, 128, 0.074);
+  background-color: rgba(218, 194, 174, 0.522);
 }
