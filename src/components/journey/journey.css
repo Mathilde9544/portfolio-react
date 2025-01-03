@@ -240,10 +240,12 @@
   .bootcamp {
     width: 80%;
     margin-left:150px;
+    top: 6%;
   }
 
   .projects {
     left: 50px;
+    top:5%;
   }
 
   .project-cards {
@@ -277,10 +279,6 @@
     height: 1000px;
   }
 
-  .bootcamp {
-    top:8%;
-  }
-
   .projects {
     top:8%;
   }
@@ -309,7 +307,7 @@
   }
  }
 
- @media screen and (max-width: 360px){
+ @media screen and (max-width: 370px){
   .parcours {
     height: 1110px;
   }
