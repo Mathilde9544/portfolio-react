@@ -84,18 +84,7 @@
   }
 }
 
-
 @media screen and (max-width: 580px) {
-  .navbar {
-    width: 100%;
-  }
-
-  .name {
-    width: 100vw;
-  }
-}
-
-@media screen and (max-width: 470px) {
   .contact {
     display: none;
   }

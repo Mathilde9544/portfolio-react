@@ -113,16 +113,14 @@
 }
 
 @media screen and (max-width: 580px) {
-  .profile {
-    width: 120vw;
-  }
-
   .introText {
-    width: 400px;
+    width: auto;
+    margin-top: 10px;
   }
 
   .text {
     margin: 0;
+    font-size: 45px;
   }
 
   .introImage {
@@ -131,5 +129,11 @@
 
   .image {
     height: 300px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .text {
+    font-size: 40px;
   }
 }
