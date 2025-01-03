@@ -3,6 +3,7 @@ import './profile.css';
 import image  from "../../assets/profile.jpg";
 
 
+
 const Profile = () => {
   return (
     <div className="profile">

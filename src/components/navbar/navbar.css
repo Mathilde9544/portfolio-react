@@ -15,6 +15,7 @@
   color: white;
   margin-top: 10px;
   width: 300px;
+  text-decoration: none;
 }
 
 .navbarText {
@@ -33,6 +34,7 @@
   margin: 10px;
   font-size: 18px;
   color: white;
+  text-decoration: none;
 }
 
 .contact {
