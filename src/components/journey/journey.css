@@ -292,11 +292,18 @@
 
  @media screen and (max-width: 400px){
   .parcours {
-    width: auto;
+    height: 1060px;
   }
-
   .project-image {
     width: 100px;
     height: 100px;
+  }
+
+  .bootcamp {
+    width: 70%;
+  }
+
+  .line {
+    height: 1040px;
   }
  }
