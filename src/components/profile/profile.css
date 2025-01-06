@@ -2,7 +2,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   display: flex;
-  width: 100%;
+  width: 100vw;
   background-color: rgba(218, 194, 174, 0.522);
   flex-wrap: wrap;
 }
