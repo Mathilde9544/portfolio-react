@@ -1,5 +1,7 @@
 import React from 'react';
+import { useState } from "react";
 import './journey.css';
+import { Link } from "react-router-dom";
 import { GoDot } from "react-icons/go";
 import { IoIosArrowUp } from "react-icons/io";
 import image  from "../../assets/wagon.png";
@@ -7,6 +9,9 @@ import garden from "../../assets/gardenease-favicon.ico";
 import skate from "../../assets/mouse.png";
 
 const Journey  = () => {
+  const [isHovered, setIsHovered] = useState(false);
+  console.log("isHovered state:", isHovered);
+
   return (
     <div className="parcours">
       <div className="line">
@@ -33,15 +38,29 @@ const Journey  = () => {
       <div className="projects">
         <h3 className="wagon-projects">My main projects at Le Wagon:</h3>
         <div className="project-cards">
-          <div className="project">
-            <img class="project-image" src={garden} alt="GardenEase"></img>
-            <h3 className="project-title">GardenEase</h3>
-          </div>
-          <div className="project">
-            <img className="project-image" id="mouse" src={skate} alt="Adventure Exchange"></img>
-            <h3 className="project-title">Aventure Exchange</h3>
-          </div>
+          <Link to="/gardenease" className="project-link">
+            <div className="project" id="gardenease-project"
+            onMouseEnter={() => setIsHovered(true)}
+            onMouseLeave={() => setIsHovered(false)}>
+              <img class="project-image" src={garden} alt="GardenEase"></img>
+              <h3 className="project-title">GardenEase</h3>
+            </div>
+          </Link>
+
+          <Link to="/" className="project-link">
+            <div className="project">
+              <img className="project-image" id="mouse" src={skate} alt="Adventure Exchange"></img>
+              <h3 className="project-title">Aventure Exchange</h3>
+            </div>
+          </Link>
         </div>
+        <div className={`project-text ${isHovered ? "visible" : ""}`}>
+            <p>GardenEase is a website for people who would like
+                to start gardening at their place, but don't know how to start.<br/>
+                By understanding your preferences and home environment, GardenEase
+                provides tailored gardening projects with step-by-step care advices.
+              </p>
+          </div>
       </div>
 
     </div>

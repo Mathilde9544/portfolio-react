@@ -1,5 +1,5 @@
 .parcours {
-  height: 450px;
+  height: auto;
   width: 85%;
   display: flex;
   justify-content: center;
@@ -35,12 +35,12 @@
 
 .bootcamp {
   position: relative;
-  top: 15%;
   left: -100px;
   width: 30%;
   align-items: center;
   text-align: right;
   margin-left:20%;
+  padding-top: 100px;
 }
 
 .bootcamp-title {
@@ -74,7 +74,7 @@
 
 .projects {
   position: relative;
-  top: 20%;
+  padding-top: 100px;
   right: -100px;
   justify-content: left;
   width : 50%;
@@ -117,6 +117,36 @@
   background-color: rgba(218, 194, 174, 0.522);
 }
 
+.project-title:hover {
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.project-link {
+  text-decoration: none;
+}
+
+.project-link:hover {
+  transform: scale(1.04);
+  transition: 0.3s;
+}
+
+.project-text {
+  display: none;
+  margin: 20px;
+  margin-top:0;
+  margin-bottom: 40px;
+  width: 495px;
+  border: 1px solid rgba(218, 194, 174, 0.696);
+  padding: 15px;
+  border-radius: 8px;
+  background-color:rgba(218, 194, 174, 0.411);
+}
+
+.project-text.visible {
+  display: block;
+  opacity: 1;
+}
 
 @media screen and (max-width: 1300px) {
   .project-title {
@@ -162,10 +192,6 @@
   .line {
     height: 700px;
   }
-
-  .parcours {
-    height: 750px;
-  }
 }
 
 
@@ -174,7 +200,6 @@
     display: block;
     justify-content: left;
     margin-left: 50px;
-    height: 900px;
   }
 
   .bootcamp {
@@ -230,7 +255,6 @@
 
 @media screen and (max-width: 660px){
   .parcours {
-    height: 1200px;
     margin-left: 30px;
   }
   .wagon-text {
@@ -272,7 +296,6 @@
  @media screen and (max-width: 450px){
   .parcours {
     width: auto;
-    height: 1050px;
   }
 
   .line {
@@ -290,9 +313,6 @@
  }
 
  @media screen and (max-width: 400px){
-  .parcours {
-    height: 1060px;
-  }
   .project-image {
     width: 100px;
     height: 100px;
@@ -308,10 +328,6 @@
  }
 
  @media screen and (max-width: 370px){
-  .parcours {
-    height: 1110px;
-  }
-
   .line {
     height: 1100px;
   }
