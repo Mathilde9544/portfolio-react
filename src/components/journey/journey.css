@@ -204,6 +204,10 @@
     display: block;
   }
 
+  #adventurex-project-responsive{
+    display: none;
+  }
+
   .project-text {
     width: 200px;
   }
@@ -265,6 +269,19 @@
   .line {
     height: 800px;
   }
+
+  #project-text-gardenease {
+    display: none;
+  }
+
+  #adventurex-project-responsive{
+    display: block;
+  }
+
+  .project-text {
+    width: 450px;
+    margin-inline:0;
+  }
 }
 
 
@@ -312,6 +329,18 @@
 
   .line {
     height: 1130px;
+  }
+
+  #project-text-gardenease {
+    display: block;
+  }
+
+  #adventurex-project-responsive{
+    display: none;
+  }
+
+  .project-text {
+    width: 270px;
   }
  }
 

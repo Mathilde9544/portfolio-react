@@ -78,7 +78,7 @@ const Journey  = () => {
         </div>
 
         {visibleProject === "gardenease" && (
-          <div className="project-text">
+          <div className="project-text" id="adventurex-project-responsive">
             <p>GardenEase is a website for people who would like
               to start gardening at their place, but don't know how to start.<br/>
               By understanding your preferences and home environment, GardenEase
