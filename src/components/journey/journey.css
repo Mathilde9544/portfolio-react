@@ -83,16 +83,20 @@
 
 .project-cards {
   display: flex;
-  font-style: italic;
+}
+
+.project-card {
+  height: auto;
+  text-align: center;
 }
 
 .project {
-  height: 200px;
   width: 200px;
   border-radius: 10px;
   margin:20px;
   padding: 20px;
-  padding-bottom: 25px;
+  margin-bottom:15px;
+  padding-bottom: 15px;
   text-align: center;
   border: 1px solid rgba(128, 128, 128, 0.232);
   box-shadow: 2px 2px rgba(197, 191, 191, 0.422);
@@ -115,11 +119,20 @@
   border-radius: 8px;
   box-shadow: 1px 1px rgba(128, 128, 128, 0.074);
   background-color: rgba(218, 194, 174, 0.522);
+  font-style: italic;
+  color: rgb(47, 40, 40);
 }
 
 .project-title:hover {
   font-size: 20px;
   transition: 0.3s;
+}
+
+.project-info {
+  margin-top: 0px;
+  font-size: 12px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .project-link {
@@ -132,20 +145,17 @@
 }
 
 .project-text {
-  display: none;
   margin: 20px;
   margin-top:0;
   margin-bottom: 40px;
-  width: 495px;
   border: 1px solid rgba(218, 194, 174, 0.696);
   padding: 15px;
   border-radius: 8px;
   background-color:rgba(218, 194, 174, 0.411);
 }
 
-.project-text.visible {
-  display: block;
-  opacity: 1;
+#project-text-gardenease {
+  display: none;
 }
 
 @media screen and (max-width: 1300px) {
@@ -181,16 +191,27 @@
     top:15%;
   }
 
-  .projects {
-    top: 15%;
-  }
-
   .project-cards{
-    display: block;;
+    display: block;
+    width: 300px;
   }
 
   .line {
     height: 700px;
+  }
+
+  #project-text-gardenease {
+    display: block;
+  }
+
+  .project-text {
+    width: 200px;
+  }
+
+  .project-info {
+    width: 200px;
+    text-align: center;
+    margin-left: 40px;
   }
 }
 
@@ -219,8 +240,9 @@
 
   .projects {
     left: 80px;
-    top:10%;
+    padding-top: 20px;
   }
+
   .project {
     margin-inline:0;
   }
