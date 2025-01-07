@@ -376,6 +376,21 @@
   .line {
     height: 1040px;
   }
+
+  .project-cards {
+    width: 250px;
+  }
+
+  .project {
+    width: 200px;
+  }
+  .project-text {
+    width: 210px;
+  }
+
+  .project-info {
+    margin-left: 25px;
+  }
  }
 
  @media screen and (max-width: 370px){
