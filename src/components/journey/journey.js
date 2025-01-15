@@ -23,7 +23,7 @@ const Journey  = () => {
       </div>
       <div className="bootcamp">
         <div className="bootcamp-title">
-          <div><img className= "wagon"src={image} alt="Le Wagon"></img></div>
+          <div><img className= "wagon" src={image} alt="Le Wagon"></img></div>
           <div>
             <h2>Web development<br/>bootcamp at Le Wagon</h2>
             <p>Oct. 2024 - Dec. 2024</p>
@@ -56,7 +56,7 @@ const Journey  = () => {
               <p>GardenEase is a website for people who would like
                 to start gardening at their place, but don't know how to start.<br/>
                 By understanding your preferences and home environment, GardenEase
-                provides tailored gardening projects with step-by-step care advices.
+                provides tailored gardening projects with step-by-step care advices.<br/>
 
                 GardenEase was built during the 2 last weeks of the bootcamp.
               </p>
@@ -82,7 +82,7 @@ const Journey  = () => {
             <p>GardenEase is a website for people who would like
               to start gardening at their place, but don't know how to start.<br/>
               By understanding your preferences and home environment, GardenEase
-              provides tailored gardening projects with step-by-step care advices.
+              provides tailored gardening projects with step-by-step care advices.<br/>
 
               GardenEase was built during the 2 last weeks of the bootcamp.
             </p>

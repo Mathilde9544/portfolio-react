@@ -1,0 +1,47 @@
+.gardenease-project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.gardenease-presentation {
+  width: 70%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  padding:15px;
+  font-size: 20px;
+}
+
+.gardenease-presentation h1 {
+  margin:0;
+}
+
+.gardenease-home {
+  width: 100%;
+}
+
+.ge-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 500px){
+  .gardenease-presentation {
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding:15px;
+    font-size: 20px;
+  }
+
+  .gardenease-home-mobile {
+    width: 100%;;
+  }
+
+  .ge-desktop {
+    display: none;
+  }
+  .ge-mobile {
+    display: block;
+  }
+ }
