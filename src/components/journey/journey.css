@@ -60,10 +60,9 @@
 .wagon-text {
   display: flex;
   text-align: left;
-  justify-content: right;
   font-size: 18px;
   color: rgba(79, 69, 69, 0.975);
-
+  padding-left: 20px;
 }
 
 .wagon-projects {
